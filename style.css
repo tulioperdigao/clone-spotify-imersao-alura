@@ -47,3 +47,47 @@ body {
     font-size: 14px;
     font-family: "DM Sans", sans-serif;
 }
+
+
+.library {
+    display: flex;
+    justify-content: space-between;
+    background-color: #121212;
+    flex-direction: column;
+    color: #b3b3b3;
+    border-radius: 8px;
+    padding: 4px 8px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.library-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library-content .fa-plus {
+    margin: 24px 10px;
+}
+
+.library-button {
+    display: flex;
+    background-color: transparent;
+    color: #b3b3b3;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 20px 10px;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.fa {
+    font-size: 20px;
+    font-weight: 300;
+    color: #b3b3b3;
+    margin-right: 10px;
+    padding-right: 8px;
+}
